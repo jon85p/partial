@@ -1,0 +1,4 @@
+[Project]
+Name=partial
+Manager=KDevCMakeManager
+VersionControl=kdevgit
