@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jhon/projects/partial/main.c
+stdio.h
+-
+string.h
+-
+utils.h
+/home/jhon/projects/partial/utils.h
+
+/home/jhon/projects/partial/utils.h
+string.h
+-
+math.h
+-
+

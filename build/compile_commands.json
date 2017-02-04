@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jhon/projects/partial/build",
+  "command": "/usr/bin/cc    -lm -g   -o CMakeFiles/partial.dir/main.o   -c /home/jhon/projects/partial/main.c",
+  "file": "/home/jhon/projects/partial/main.c"
+}
+]

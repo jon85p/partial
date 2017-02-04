@@ -1,0 +1,7 @@
+/home/jhon/projects/partial/build/CMakeFiles/install.dir
+/home/jhon/projects/partial/build/CMakeFiles/list_install_components.dir
+/home/jhon/projects/partial/build/CMakeFiles/rebuild_cache.dir
+/home/jhon/projects/partial/build/CMakeFiles/edit_cache.dir
+/home/jhon/projects/partial/build/CMakeFiles/install/strip.dir
+/home/jhon/projects/partial/build/CMakeFiles/install/local.dir
+/home/jhon/projects/partial/build/CMakeFiles/partial.dir
