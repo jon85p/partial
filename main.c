@@ -27,7 +27,7 @@
 int main (int argc, char *argv[])
 {
 	if ((argc > 4) || (argc == 1)){
-		printf("Wrong usage, check partial -h or partial --help\n");
+		fprintf(stderr, "Wrong usage, check partial -h or partial --help\n");
 		return 1;
 	}
 	char* hel = "-h";
@@ -56,7 +56,7 @@ int main (int argc, char *argv[])
 
     FILE *file = fopen(FILENAME, "rt");
     if (file == NULL){
-        printf("ERROR: Unable to read file.\n");
+        fprintf(stderr, "ERROR: Unable to read file.\n");
         return 1;
     }
     fseek(file, 0, SEEK_END);
@@ -68,18 +68,18 @@ int main (int argc, char *argv[])
 
     // Check sanity
     if (initialByte <= 0){
-        printf("ERROR: First byte must be greater than 1\n");
+        fprintf(stderr, "ERROR: First byte must be greater than 1\n");
         return 1;
     }
 
     if (lastByte < initialByte){
-        printf("ERROR, initial byte must be lower than final byte.\n");
+        fprintf(stderr, "ERROR, initial byte must be lower than final byte.\n");
         return 1;
     }
 
         // Check file not greater than lastByte
     if (lastByte > fileLen){
-        printf("ERROR: %li greater than file size=%li\n", lastByte, fileLen);
+        fprintf(stderr, "ERROR: %li greater than file size=%li\n", lastByte, fileLen);
         return 1;
     }
 
@@ -97,4 +97,3 @@ int main (int argc, char *argv[])
     fclose(file);
 	return 0;
 }
-

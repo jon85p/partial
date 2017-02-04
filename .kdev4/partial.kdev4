@@ -1,3 +1,6 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0e\x00p\x00a\x00r\x00t\x00i\x00a\x00l)
+
 [CMake]
 Build Directory Count=1
 Current Build Directory Index=0
@@ -20,6 +23,7 @@ Name=partial
 Type=Native Application
 
 [Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=partial,partial
 Project Target=partial,partial
 Working Directory=file:///home/jhon/projects/partial/build/
 isExecutable=false
